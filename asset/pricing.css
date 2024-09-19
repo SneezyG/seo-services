@@ -315,6 +315,26 @@ p.long {
   font-size: 15px;
 }
 
+.action {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.action > a {
+  display: inline-block;
+  background-color: #1565C0;
+  color: white;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  opacity: 0.9;
+  border: 3px solid #1565C0;
+}
+
 
 
 @media only screen and (max-width: 1200px) { }
@@ -367,7 +387,7 @@ p.long {
   .company > p {
     font-size: 12px;
   }
-    
+  
 }
 
 
